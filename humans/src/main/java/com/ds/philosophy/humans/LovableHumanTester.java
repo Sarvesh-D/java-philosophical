@@ -1,14 +1,16 @@
 package com.ds.philosophy.humans;
 
-import com.ds.utils.Random;
-import lombok.extern.slf4j.Slf4j;
+import java.util.AbstractMap;
+import java.util.Arrays;
+import java.util.Map;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
-import java.util.*;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
+import com.ds.utils.Random;
 
 @RunWith(JUnit4.class)
 public class LovableHumanTester {
