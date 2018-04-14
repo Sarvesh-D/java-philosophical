@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 @RunWith(JUnit4.class)
-public class LoveTester {
+public class LovableHumanTester {
 
     @Test
     public void shouldDisplayLoveIrrespectiveOfReligion() {
