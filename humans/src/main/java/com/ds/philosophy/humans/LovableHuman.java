@@ -18,7 +18,7 @@ public class LovableHuman implements Love {
     private Caste caste;
 
     @Override
-    public void doLove(Object other) {
+    public void doLove(final Object other) {
         Assert.assertTrue("Other must be LovableHuman", LovableHuman.class.isAssignableFrom(other.getClass()));
         log.info("{} Loves {}", this.religion.name(), LovableHuman.class.cast(other).religion.name());
     }
